@@ -96,4 +96,14 @@ public class PlayerSelection {
         System.out.println("Final Decision: " + finalDecision);
 
     }
+    public static void fallThroughDemo(int jersey) {
+        switch (jersey) {
+            case 2:
+                System.out.println("Defender");
+            case 5:
+                System.out.println("Defender (fall through)");
+            default:
+                System.out.println("Unknown");
+        }
+    }
 }
