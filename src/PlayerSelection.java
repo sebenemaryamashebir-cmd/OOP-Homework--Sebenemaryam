@@ -96,6 +96,7 @@ public class PlayerSelection {
         System.out.println("Final Decision: " + finalDecision);
 
     }
+    //  Unwanted fall-through demo
     public static void fallThroughDemo(int jersey) {
         switch (jersey) {
             case 2:
